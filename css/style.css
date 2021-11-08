@@ -100,7 +100,7 @@ background-color: #e9e5e3;}
 /*--------------------------------------------------------------------*/
 
 .our_team .team{
-height: 70vh;
+height: auto;
 padding-bottom: 20px;
 padding-top: 30px;
 color: #848588;
@@ -126,7 +126,7 @@ font-size: 16px;}
 /*--------------------------------------------------------------------*/
 .statistics{
 background: url("../image/san.jpg")no-repeat center top ;
-background-size: cover;height:30vh;
+background-size: cover;height:auto;
 }
 .statistics .data{
 	background-color: rgba(144, 110, 88, 0.8);
