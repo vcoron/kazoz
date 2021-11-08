@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media(max-width:767px)
+{
+    .wallpaper{
+        background-size: 850px 500px;
+        overflow: hidden;
+    }        
+    .carousel{padding: 0; margin-top: 150px;}
+    .carousel .static{
+        font-size: 20px;
+        
+        
+    }
+    .carousel-item .par-3{font-size: 18px;}
+    .form1
+    {margin-right: 40px;
+    margin-bottom: 20px;
+}
+.about .par-content .paddin p{
+    
+    display: inline;
+}
+
+}
+
+
+@media(min-width:768px)
+{
+    .carousel{padding: 0; margin-top: 150px;}
+    .carousel .static{
+        font-size: 25px;
+   
+    }
+    .carousel-item .par-3{font-size: 20px;}
+    
+   
+}
+/* Medium Screen */
+@media(min-width:992px)
+{
+    
+}
+.footer .three-columns {
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+
+
+/* */
+@media(min-width:1200px)
+{
+	
+    
+}
+
+
+
+
+
+
+
