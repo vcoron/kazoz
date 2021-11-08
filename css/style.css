@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 body{background-color: #1e252c;}
+.logo{
+    width:65px;
+     height:80px; 
+}
 
 /* Start Navbar */
 .navbar{
