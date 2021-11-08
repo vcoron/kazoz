@@ -6,7 +6,7 @@ body{background-color: #1e252c;}
 .navbar{
     background-color: #e9e5e3;
     padding: 20px !important;
-    height: 20vh;
+    
 }
 
 
@@ -32,13 +32,13 @@ text-indent: 10px;
 .wallpaper{
 background:url("../image/slide.png") no-repeat center center;
 background-size: cover;
-height: 80vh;
+height: auto;
 padding-bottom: 40px;
 padding-top: 40px}
 .wall{
     color: #fff;
     position: relative;
-    height: 80vh;
+    height: auto;
 }
 .wall .content{margin-top: 40px;
 font-size: 30px;}
