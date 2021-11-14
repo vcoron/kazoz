@@ -6,7 +6,7 @@ $(document).ready(function (){
 	
 
 	$('.carousel').carousel({
-		interval:2000
+		interval:3000
 		
 		
 	});
@@ -24,16 +24,16 @@ $(document).ready(function (){
 				scrollButton.hide();
 			}
 			});
-			$(window).scroll(function ()
-			{
+			// $(window).scroll(function ()
+			// {
 					
-			if($(this).scrollTop()>=300)
-			{
-				navbar1.addClass('fixed-top');
-			}else{
-				navbar1.removeClass('fixed-top');
-			}
-			});
+			// if($(this).scrollTop()>=50)
+			// {
+			// 	navbar1.addClass('fixed-top');
+			// }else{
+			// 	navbar1.removeClass('fixed-top');
+			// }
+			// });
 	scrollButton.click(function (){
 			$("html,body").animate({ scrollTop : 0 }, 600 );
 		});
