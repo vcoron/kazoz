@@ -34,7 +34,7 @@ text-indent: 10px;
 /*--------------------------------------------------------------------*/
 
 .wallpaper{
-background:url("../image/slide.PNG") no-repeat center center;
+background:url("../image/slide.png") no-repeat center center;
 background-size: cover;
 height: auto;
 padding-bottom: 40px;
@@ -132,11 +132,11 @@ margin-bottom: 20px;}
 .testimonials .person:hover{color: #e9e5e3;}
 /*--------------------------------------------------------------------*/
 .statistics{
-background: url("../image/san.PNG")no-repeat center top ;
+background: url("../image/san.png")no-repeat center top ;
 background-size: cover;height:auto;
 }
 .statistics .data{
-	background-color: rgba(144, 110, 88, 0.2);
+	background-color: rgba(144, 110, 88, 0.1);
 	min-height: 30vh;
 	padding-bottom: 70px;
 	padding-top: 60px;
