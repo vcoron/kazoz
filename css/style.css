@@ -2,14 +2,14 @@
 /* CSS Document */
 body{background-color: #1e252c;}
 .logo{
-    width:65px;
-     height:80px; 
+    width:60px;
+     height:70px; 
 }
 
 /* Start Navbar */
 .navbar{
     background-color: #e9e5e3;
-    padding: 20px !important;
+    padding: 10px !important;
     
 }
 
@@ -21,7 +21,7 @@ color: #231f20;
 margin-left: 25px;}
 
 .navbar-light  .navbar-nav .nav-link:hover{color: #1e252c;}
-.navbar{padding-top: 20px;}
+
 
 .nav-item{
 text-indent: 10px;
@@ -102,8 +102,10 @@ background-color: #e9e5e3;}
 }
 /*--------------------------------------------------------------------*/
 /*--------------------------------------------------------------------*/
-
-.our_team .team{
+.testimonials{
+    height:  auto
+}
+.testimonials .team{
 height: auto;
 padding-bottom: 20px;
 padding-top: 30px;
@@ -111,22 +113,23 @@ color: #848588;
 background-color: #1e252c;
 font-size: 16px;}
 
-.our_team .team h2{
+.testimonials .team h2{
     cursor: pointer;
     color: #e9e5e3;
     margin-right: 35px;
-    font-weight: bold;}
-.our_team .team .par{
+    font-weight: bold;
+margin-bottom: 20px;}
+.testimonials .team .par{
     margin-bottom: 30px;
     color: #e9e5e3;
     font-size: 18px;
     font-weight: 500;
 }
-.our_team .person{margin-bottom:40px;}
-.our_team .person img{opacity: 0.6; margin-top: 20px;}
-.our_team .person h3{ margin-top: 20px;}
-.our_team .person img:hover{opacity: 1;}
-.our_team .person:hover{color: #e9e5e3;}
+.testimonials .person{margin-bottom:40px;}
+.testimonials .person img{opacity: 0.8; margin-top: 20px;}
+.testimonials .person h3{ margin-top: 20px;}
+.testimonials .person img:hover{opacity: 1;}
+.testimonials .person:hover{color: #e9e5e3;}
 /*--------------------------------------------------------------------*/
 .statistics{
 background: url("../image/san.jpg")no-repeat center top ;
@@ -193,9 +196,9 @@ text-align: justify;
 
 }
 .contact-us button{
-    background-color: #8b4018;
-    box-shadow: 0 1px 0px #8b4018;
-    border: 1px solid #8b4018;
+    background-color: #a96a40;
+    box-shadow: 0 1px 0px #a96a40;
+    border: 1px solid #a96a40;
     color: #fff;
 }
 .contact-us button:hover{
@@ -203,8 +206,8 @@ text-align: justify;
     box-shadow: 0 1px 1px #a7420b;
     border: 1px solid #a7420b;
 }
+/*------------------------------------------------*/
 
-/*--------------------------------------------------------------------*/
 .footer{background:#1e252c;color: #aaa;padding-top: 40px;}
 .footer hr{
     height: 3px;
@@ -241,6 +244,6 @@ padding: 15px 0;font-size: 15px;font-weight: bold}
 .footer .copyright span{color:#e9e5e3;}
 
 /*--------------------------------------------------------------------*/
-#scroll-top{width: 50px;height:40px;color: #8b4018;
+#scroll-top{width: 50px;height:40px;color: #a96a40;
     text-align: center;position: fixed;right: 15px;
     bottom: 10px;z-index: 99999;display: none;}
