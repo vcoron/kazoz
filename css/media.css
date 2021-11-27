@@ -3,6 +3,12 @@
 
 @media(max-width:767px)
 {
+
+    .hida{
+     display: none;   
+    }
+  
+
     .wallpaper{
         background-size: 850px 500px;
         overflow: hidden;
@@ -31,6 +37,9 @@
 
 @media(min-width:768px)
 {
+    .hdia{
+        display: block;
+    }
     .carousel{padding: 0; margin-top: 183px;}
     .carousel .static{
         font-size: 25px;
@@ -43,11 +52,11 @@
 /* Medium Screen */
 @media(min-width:992px)
 {
-    
-}
-.footer .three-columns {
-    overflow: hidden;
-    margin-top: 60px;
+    .footer .three-columns {
+        overflow: hidden;
+        margin-top: 60px;
+    }
+        
 }
 
 
@@ -75,6 +84,7 @@
     .carousel-item .par-3 {
         font-size: 25px;
     }
+    
 }
 
 
